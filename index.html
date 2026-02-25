@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Web Dev With Asia ">
+	<meta name="description" content="full stack web development practice">
+	<meta name="keywords" content="life, music , travel">
+	<meta name="robots" content="index, follow">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="language" content="English">
+	<meta name="revisit-after" content="3 days">
+	<title>Javascript</title>
+	<!-- font links -->
+		
+	<!--css link-->	
+
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css"> 
+		<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<!-- ex-1 -->
+					<div class="border-bottom">
+						<h2>Click for Date and Time</h2>
+						<button onclick="showDate()" class="btn btn-dark" type="button">Date and Time</button>
+						<h3 id="showDate"></h3>
+					</div>
+					<!-- ex-2 -->
+					<div class="border-bottom">
+						<h2>Click for Date and Time</h2>
+						<button onclick="sDate()" class="btn btn-dark" type="button">Date and Time</button>
+						<h3 id="sDate">The Date is...</h3>
+					</div>
+					<!-- ex-3 -->
+					<div class="border-bottom">
+						<h2>Click for Text</h2>
+						<button onclick="sText()" class="btn btn-dark" type="button">Text</button>
+						<h3 id="sText">The Text is...</h3>
+					</div>
+					<!-- exp-4 -->
+					<div class="border-bottom">
+						<h2>click the button to Turn on/off the light</h2>
+						<button type="button" class="btn btn-dark" onclick="bulbOn()">On</button>
+						<img id="bulb" src="img/bulboff.gif" alt="bulb">
+						<button type="button" class="btn btn-dark" onclick="bulbOff()">Off</button>
+					</div>
+					<!-- ex-5 -->
+					<div class="border-bottom">
+						<h2>Click To change style</h2>
+						<button type="button" onclick="styleChange()" class="btn btn-dark">style</button>
+						<h3 id="sChange">The Text is...</h3>
+					</div>
+					<!-- exp-6 -->
+					<div class="border-bottom">
+						<h2>click the button to show/hide the image</h2>
+						<button type="button" class="btn btn-dark" onclick="showImg()">show</button>
+						<button type="button" class="btn btn-dark" onclick="hideImg()">hide</button>
+						<img id="img" src="img/gojo.jpg" alt="gojo">
+					</div>
+					<!-- exp-6 -->
+					<div class="border-bottom">
+						<h2>click the button to show/hide the text</h2>
+						<button type="button" class="btn btn-dark" onclick="sT()">show</button>
+						<button type="button" class="btn btn-dark" onclick="hT()">hide</button>
+						<h3 id="s_hText">We are human....</h3>
+						
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+	<!--js link-->
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
