@@ -29,10 +29,11 @@ function showImg(){
 function hideImg(){
   document.getElementById('img').style.display="none";
 }
-// ex-6
+// ex-7
 function sT(){
   document.getElementById('s_hText').style.display="block";
 }
 function hT(){
   document.getElementById('s_hText').style.display="none";
+
 }
