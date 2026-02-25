@@ -13,7 +13,7 @@ function sText(){
 }
 // ex-4
 function bulbOn(){
-  document.getElementById('bulb').src="img/bulbon.gif"
+  document.getElementById('bulb').src="img/bulbon.gif";
 }
 function bulbOff(){
   document.getElementById('bulb').src="img/bulboff.gif";
@@ -37,3 +37,4 @@ function hT(){
   document.getElementById('s_hText').style.display="none";
 
 }
+
